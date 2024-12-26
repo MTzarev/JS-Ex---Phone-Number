@@ -1,6 +1,6 @@
 function matchPhoneNumber(input) {
-    let numbers = input.join(``)
-    let pattern = /\+359[ -][2][ -]\d{3}[ -]\d{4}/g
+    let numbers = input.join(``);
+    let pattern = /\+359[ -][2][ -]\d{3}[ -]\d{4}/g;
     let validNumbers = numbers.match(pattern);
 
     console.log(validNumbers.join(`, `));
